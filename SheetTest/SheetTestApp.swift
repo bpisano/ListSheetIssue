@@ -11,7 +11,7 @@ import SwiftUI
 struct SheetTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlaylistCreationView(viewModel: PlaylistCreationViewModel())
         }
     }
 }
